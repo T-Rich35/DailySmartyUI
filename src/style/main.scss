@@ -17,19 +17,8 @@ body {
   display: grid;
   align-content: space-around;
   justify-items: center;
-  background-color: cadetblue;
+  // background-color: cadetblue;
   // grid-template-rows: 1fr 2fr 1fr;
-}
-
-.logo-main {
-  width: 100px;
-  height: 50px;
-}
-
-.search-bar {
-  display: grid;
-  align-content: center;
-  justify-content: center;
 }
 
 .recent-posts {
@@ -37,3 +26,8 @@ body {
   justify-content: center;
   align-content: center;
 }
+
+$color-gray-two: #b3b3b3;
+$color-gray-one: #666666;
+
+@import "./search-bar.scss";
